@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='tangled.session',
-    version='0.1a2',
+    version='0.1a3.dev0',
     description='Tangled session integration',
     long_description=open('README.rst').read(),
     url='http://tangledframework.org/',
