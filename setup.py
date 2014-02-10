@@ -15,12 +15,12 @@ setup(
         'tangled.session.tests',
     ],
     install_requires=[
-        'tangled>=0.1.dev0',
+        'tangled>=0.1a5',
         'Beaker>=1.6.4',
     ],
     extras_require={
         'dev': [
-            'tangled[dev]',
+            'tangled[dev]>=0.1a5',
         ],
     },
     classifiers=[
