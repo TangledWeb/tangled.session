@@ -7,7 +7,7 @@ setup(
     description='Tangled session integration',
     long_description=open('README.rst').read(),
     url='http://tangledframework.org/',
-    download_url='https://github.com/TangledWeb/tangled.session',
+    download_url='https://github.com/TangledWeb/tangled.session/tags',
     author='Wyatt Baldwin',
     author_email='self@wyattbaldwin.com',
     packages=[
