@@ -4,7 +4,7 @@ import os
 from beaker.session import SessionObject
 
 from tangled.converters import as_first_of
-from tangled.decorators import reify
+from tangled.decorators import cached_property
 from tangled.settings import parse_settings
 
 from .flash import FlashFactory
@@ -35,7 +35,7 @@ def include(app):
     app.add_request_attribute(flash)
 
 
-@reify
+@cached_property
 def session(request):
     app = request.app
     factory = app['session_factory']
@@ -45,7 +45,7 @@ def session(request):
     return sess
 
 
-@reify
+@cached_property
 def flash(request):
     return FlashFactory(request.app, request, request.session)
 
