@@ -1,7 +1,9 @@
-0.1a3 (unreleased)
+0.1a3 (2017-03-09)
 ==================
 
-- No changes yet
+- Upgraded `tangled` 0.1a5 => 0.1a9.
+- Upgraded `Beaker` 1.6.4 => 1.8.1
+- Replaced `@reify` with `@cached_property` throughout.
 
 
 0.1a2 (2014-02-09)
