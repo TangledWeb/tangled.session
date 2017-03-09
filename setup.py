@@ -16,8 +16,8 @@ setup(
         'tangled.session.tests',
     ],
     install_requires=[
-        'Beaker>=1.6.4',
         'tangled>=0.1a9',
+        'Beaker>=1.8.1',
     ],
     extras_require={
         'dev': [
